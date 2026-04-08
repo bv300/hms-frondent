@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# binary files causing indexing issues
+public/favicon.ico
+public/images/
