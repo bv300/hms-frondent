@@ -3,6 +3,7 @@ import { useNavigate, useParams, Link } from "react-router-dom";
 import axios from "axios";
 import { IoEyeOutline } from "react-icons/io5";
 import { IoEyeOffOutline } from "react-icons/io5";
+import loginImg from "../assets/loginA.png";
 // import "./style.css";
 
 function Login() {
@@ -50,6 +51,7 @@ function Login() {
   return (
     <div className="alignauto">
       <div className="login-image" >
+        <img src={loginImg} alt="login" />
       </div>
       <div className="login-container"  >
         <form className="login-box" onSubmit={handleLogin}>
