@@ -3,7 +3,7 @@ import { useNavigate, useParams, Link } from "react-router-dom";
 import axios from "axios";
 import { IoEyeOutline } from "react-icons/io5";
 import { IoEyeOffOutline } from "react-icons/io5";
-import hms from "../assets/hms.png";
+import hms from "../images/hms.png";
 // import "./style.css";
 
 function Login() {
@@ -56,7 +56,7 @@ function Login() {
       <div className="login-container"  >
         <form className="login-box" onSubmit={handleLogin}>
           <div className="link-login">
-            <img src="/images/hmslogo.png" alt="" />
+            <img src="/images/hms.png" alt="hms" />
           </div>
           <h2 className="role">{routeRole ? routeRole.toUpperCase() : "USER"} LOGIN</h2>
 
