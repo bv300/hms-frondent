@@ -3,7 +3,7 @@ import { useNavigate, useParams, Link } from "react-router-dom";
 import axios from "axios";
 import { IoEyeOutline } from "react-icons/io5";
 import { IoEyeOffOutline } from "react-icons/io5";
-import hms from "../images/hms.png";
+import hms from "/images/hms.png";
 // import "./style.css";
 
 function Login() {
